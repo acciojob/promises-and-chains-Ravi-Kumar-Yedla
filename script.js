@@ -5,7 +5,7 @@ document.getElementById("myForm").addEventListener("submit",function(event){
 	const age = document.getElementById("age").value;
 	
 	if(name === "" || age === ""){
-		alert("please fill the form");
+		alert("Please fill out all fields");
 		return;
 	}
 	const promise = new Promise((resolve,reject)=>{
